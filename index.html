@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae | Deshinta Melani - Software Engineer & Data Analyst</title>
+  <meta name="description"
+    content="Personal CV & Portofolio Profesional Deshinta Melani - Software Engineer & Data Analyst. Desain formal, modern, elegan, dan profesional.">
+
+  <!-- Google Fonts: Poppins (Heading) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- File CSS Eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================
+       1. STICKY NAVBAR
+       ========================================== -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-monogram">DM</span>
+        <span class="brand-name">Deshinta Melani</span>
+      </a>
+
+      <!-- Tombol Hamburger Mobile -->
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Menu Navigasi -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+          <li><a href="#contact" class="nav-link nav-link-cta"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. MAIN CONTENT (TWO-COLUMN DESKTOP LAYOUT)
+       ========================================== -->
+  <main class="main-container" id="home">
+    <div class="cv-layout-grid">
+
+      <!-- ========================================
+           BAGIAN A: SIDEBAR (KOLOM KIRI)
+           - Foto Profil
+           - Nama Lengkap: Deshinta Melani
+           - Bidang: Software Engineer & Data Analyst
+           - Kontak: Email & Instagram
+           - Riwayat Pendidikan Ringkas
+           ======================================== -->
+      <aside class="cv-sidebar animate-on-scroll">
+
+        <!-- KARTU IDENTITAS PRIBADI -->
+        <div class="sidebar-card profile-card">
+          <div class="profile-photo-container">
+            <!-- Foto Profil Formal (Ganti URL gambar di bawah jika menggunakan foto lokal, misal: assets/foto.jpg) -->
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+              alt="Foto Profil Deshinta Melani" class="profile-img">
+            <div class="profile-status-badge" title="Status: Terbuka untuk Kolaborasi & Peluang Karier">
+              <span class="status-pulse"></span>
+              <span class="status-title">Open for Opportunities</span>
+            </div>
+          </div>
+
+          <div class="profile-text-info">
+            <h1 class="profile-name">Deshinta Melani</h1>
+            <p class="profile-profession">Software Engineer &amp; Data Analyst</p>
+            <div class="profile-badge-role">Tech &amp; Data Enthusiast</div>
+          </div>
+
+          <p class="profile-bio-short">
+            Fokus pada pengembangan rekayasa perangkat lunak terstruktur dan analisis data berbasis wawasan
+            (*insight-driven*).
+          </p>
+
+          <!-- Tombol Aksi Download CV & Contact -->
+          <div class="sidebar-actions">
+            <!-- Ganti href dengan file PDF Anda (contoh: href="cv-deshinta-melani.pdf") -->
+            <a href="#download" class="btn btn-primary" id="btnDownloadCv">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Hubungi Saya</span>
+            </a>
+          </div>
+
+          <!-- Informasi Kontak Sidebar -->
+          <div class="sidebar-section-divider"></div>
+          <div class="sidebar-contact-block">
+            <h3 class="sidebar-section-title">
+              <i class="fa-solid fa-address-book"></i> Kontak Pribadi
+            </h3>
+            <ul class="sidebar-contact-list">
+              <li>
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-info-meta">
+                  <span class="contact-caption">Email</span>
+                  <a href="mailto:deshintazzaa@gmail.com" class="contact-link">deshintazzaa@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon-box">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="contact-info-meta">
+                  <span class="contact-caption">Instagram</span>
+                  <a href="https://instagram.com/dshntaa" target="_blank" rel="noopener noreferrer"
+                    class="contact-link">@dshntaa</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-info-meta">
+                  <span class="contact-caption">Domisili</span>
+                  <span class="contact-plain-text">Indonesia</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Ringkasan Pendidikan di Sidebar -->
+          <div class="sidebar-section-divider"></div>
+          <div class="sidebar-edu-block">
+            <h3 class="sidebar-section-title">
+              <i class="fa-solid fa-graduation-cap"></i> Pendidikan
+            </h3>
+            <div class="mini-edu-list">
+              <div class="mini-edu-item">
+                <span class="mini-edu-year">2025–2029</span>
+                <h4 class="mini-edu-school">Politeknik Indonusa Surakarta</h4>
+                <p class="mini-edu-major">Teknologi Rekayasa Perangkat Lunak</p>
+              </div>
+              <div class="mini-edu-item">
+                <span class="mini-edu-year">2022–2025</span>
+                <h4 class="mini-edu-school">SMKN 1 Karanganyar</h4>
+                <p class="mini-edu-major">Desain Komunikasi Visual</p>
+              </div>
+            </div>
+            <a href="#education" class="mini-edu-anchor">Lihat Riwayat Lengkap &rarr;</a>
+          </div>
+
+        </div>
+
+      </aside>
+
+      <!-- ========================================
+           BAGIAN B: KONTEN UTAMA (KOLOM KANAN)
+           1. About Me
+           2. Education
+           3. Skills
+           4. Area of Expertise
+           5. Projects & Experience
+           6. Contact
+           ======================================== -->
+      <section class="cv-main-content">
+
+        <!-- 1. ABOUT ME -->
+        <section class="content-panel animate-on-scroll" id="about">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-user"></i></span>
+              <div>
+                <h2 class="panel-title">About Me</h2>
+                <span class="panel-subtitle">Ringkasan Profil &amp; Dedikasi Profesional</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="about-quote-card">
+              <p class="about-text-content">
+                "Saya merupakan individu yang memiliki ketertarikan pada bidang pengembangan perangkat lunak dan
+                analisis data. Memiliki semangat untuk terus belajar, mengembangkan kemampuan, serta mengikuti
+                perkembangan teknologi guna menghasilkan solusi digital yang efektif, efisien, dan sesuai dengan
+                kebutuhan pengguna."
+              </p>
+            </div>
+
+            <!-- Kartu Sorotan Nilai Tambah -->
+            <div class="about-highlights-grid">
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="fa-solid fa-code"></i></div>
+                <h3 class="highlight-title">Software Engineering</h3>
+                <p class="highlight-desc">Membangun perangkat lunak dengan pendekatan modular, kode bersih, dan
+                  pemecahan masalah yang efisien.</p>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                <h3 class="highlight-title">Data Analytics</h3>
+                <p class="highlight-desc">Mengekstrak wawasan bermakna dari data melalui pembersihan, visualisasi, dan
+                  interpretasi yang akurat.</p>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                <h3 class="highlight-title">Visual &amp; System Design</h3>
+                <p class="highlight-desc">Latar belakang DKV memperkuat perancangan UI/UX yang harmonis, intuitif, dan
+                  berorientasi pengguna.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. EDUCATION -->
+        <section class="content-panel animate-on-scroll" id="education">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+              <div>
+                <h2 class="panel-title">Education</h2>
+                <span class="panel-subtitle">Riwayat Pendidikan Formal Secara Kronologis</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="education-timeline">
+
+              <!-- Item 1: Politeknik Indonusa Surakarta -->
+              <div class="timeline-entry">
+                <div class="timeline-marker">
+                  <span class="marker-core"></span>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-card-head">
+                    <div>
+                      <h3 class="edu-institution">Politeknik Indonusa Surakarta</h3>
+                      <h4 class="edu-program">Program Studi Teknologi Rekayasa Perangkat Lunak</h4>
+                    </div>
+                    <span class="edu-badge-period">2025–2029</span>
+                  </div>
+                  <p class="edu-detail">
+                    Pendidikan tinggi vokasi yang berfokus pada rekayasa perangkat lunak, perancangan sistem informasi,
+                    algoritma komputasi, pengembangan basis data terpadu, dan manajemen proyek teknologi.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 2: SMKN 1 Karanganyar -->
+              <div class="timeline-entry">
+                <div class="timeline-marker">
+                  <span class="marker-core"></span>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-card-head">
+                    <div>
+                      <h3 class="edu-institution">SMKN 1 Karanganyar</h3>
+                      <h4 class="edu-program">Jurusan Desain Komunikasi Visual</h4>
+                    </div>
+                    <span class="edu-badge-period">2022–2025</span>
+                  </div>
+                  <p class="edu-detail">
+                    Mempelajari dasar-dasar komunikasi visual, estetika desain, tipografi, komposisi tata letak, dan
+                    penguasaan perangkat kreatif yang menjadi fondasi kuat dalam desain antarmuka pengguna (UI/UX).
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. SKILLS -->
+        <section class="content-panel animate-on-scroll" id="skills">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-code"></i></span>
+              <div>
+                <h2 class="panel-title">Skills</h2>
+                <span class="panel-subtitle">Tingkat Kemahiran Teknis &amp; Keahlian Perangkat Lunak</span>
+              </div>
+            </div>
+            <span class="panel-tag-note">Indikator Persentase Terukur</span>
+          </div>
+          <div class="panel-body">
+            <p class="skills-guide-text">
+              Daftar keahlian teknis berikut mencerminkan fokus dalam rekayasa perangkat lunak dan analisis data.
+              Persentase dapat disesuaikan pada atribut <code>data-skill-level</code> di <code>index.html</code>.
+            </p>
+
+            <div class="skills-grid">
+
+              <!-- Skill 1: HTML -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-html5 skill-ico"></i>
+                    <strong>HTML</strong>
+                  </span>
+                  <span class="skill-value">90%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="90"></div>
+                </div>
+                <span class="skill-subinfo">Semantic HTML5 &amp; Web Standards</span>
+              </div>
+
+              <!-- Skill 2: CSS -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-css3-alt skill-ico"></i>
+                    <strong>CSS</strong>
+                  </span>
+                  <span class="skill-value">85%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="85"></div>
+                </div>
+                <span class="skill-subinfo">Responsive Layout, Flexbox &amp; Grid</span>
+              </div>
+
+              <!-- Skill 3: JavaScript -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-js skill-ico"></i>
+                    <strong>JavaScript</strong>
+                  </span>
+                  <span class="skill-value">80%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="80"></div>
+                </div>
+                <span class="skill-subinfo">Vanilla ES6+, DOM &amp; Logic</span>
+              </div>
+
+              <!-- Skill 4: PHP -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-php skill-ico"></i>
+                    <strong>PHP</strong>
+                  </span>
+                  <span class="skill-value">78%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="78"></div>
+                </div>
+                <span class="skill-subinfo">Backend Scripting &amp; Data Integration</span>
+              </div>
+
+              <!-- Skill 5: Java -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-java skill-ico"></i>
+                    <strong>Java</strong>
+                  </span>
+                  <span class="skill-value">75%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="75"></div>
+                </div>
+                <span class="skill-subinfo">Object-Oriented Programming (OOP)</span>
+              </div>
+
+              <!-- Skill 6: Python -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-python skill-ico"></i>
+                    <strong>Python</strong>
+                  </span>
+                  <span class="skill-value">80%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="80"></div>
+                </div>
+                <span class="skill-subinfo">Data Handling &amp; Scripting</span>
+              </div>
+
+              <!-- Skill 7: MySQL -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-database skill-ico"></i>
+                    <strong>MySQL</strong>
+                  </span>
+                  <span class="skill-value">85%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="85"></div>
+                </div>
+                <span class="skill-subinfo">Relational Schema &amp; SQL Queries</span>
+              </div>
+
+              <!-- Skill 8: Database Management -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-server skill-ico"></i>
+                    <strong>Database Management</strong>
+                  </span>
+                  <span class="skill-value">82%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="82"></div>
+                </div>
+                <span class="skill-subinfo">Normalization, CRUD &amp; Architecture</span>
+              </div>
+
+              <!-- Skill 9: Data Analysis -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-chart-line skill-ico"></i>
+                    <strong>Data Analysis</strong>
+                  </span>
+                  <span class="skill-value">82%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="82"></div>
+                </div>
+                <span class="skill-subinfo">Cleaning, Visualization &amp; Insights</span>
+              </div>
+
+              <!-- Skill 10: UI/UX Design -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-pen-ruler skill-ico"></i>
+                    <strong>UI/UX Design</strong>
+                  </span>
+                  <span class="skill-value">88%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="88"></div>
+                </div>
+                <span class="skill-subinfo">Wireframing, Figma &amp; Visual Design</span>
+              </div>
+
+              <!-- Skill 11: Software Testing -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-vial-circle-check skill-ico"></i>
+                    <strong>Software Testing</strong>
+                  </span>
+                  <span class="skill-value">78%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="78"></div>
+                </div>
+                <span class="skill-subinfo">Black-box Testing &amp; Bug Tracking</span>
+              </div>
+
+              <!-- Skill 12: Git & GitHub -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-brands fa-git-alt skill-ico"></i>
+                    <strong>Git &amp; GitHub</strong>
+                  </span>
+                  <span class="skill-value">80%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="80"></div>
+                </div>
+                <span class="skill-subinfo">Version Control &amp; Team Collaboration</span>
+              </div>
+
+              <!-- Skill 13: Problem Solving -->
+              <div class="skill-item-card">
+                <div class="skill-meta-head">
+                  <span class="skill-name-wrap">
+                    <i class="fa-solid fa-brain skill-ico"></i>
+                    <strong>Problem Solving</strong>
+                  </span>
+                  <span class="skill-value">85%</span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" data-skill-level="85"></div>
+                </div>
+                <span class="skill-subinfo">Analytical &amp; Algorithmic Thinking</span>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. AREA OF EXPERTISE -->
+        <section class="content-panel animate-on-scroll" id="expertise">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-layer-group"></i></span>
+              <div>
+                <h2 class="panel-title">Area of Expertise</h2>
+                <span class="panel-subtitle">Dua Pilar Kompetensi Utama yang Dikuasai</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="expertise-two-col">
+
+              <!-- Pilar 1: Software Engineer -->
+              <div class="expertise-pillar-card">
+                <div class="pillar-top">
+                  <div class="pillar-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                  <div>
+                    <h3 class="pillar-title">Software Engineer</h3>
+                    <span class="pillar-tagline">Rekayasa &amp; Pembangunan Sistem</span>
+                  </div>
+                </div>
+                <p class="pillar-summary">
+                  Berfokus pada perancangan, pengembangan, pengujian, serta pengelolaan arsitektur perangkat lunak yang
+                  andal dan terukur.
+                </p>
+                <ul class="pillar-competency-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Software Development</strong>
+                      <span>Implementasi logika pemrograman terstruktur dan modular.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Web Development</strong>
+                      <span>Pembuatan aplikasi web responsif, aman, dan mudah digunakan.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>System Analysis</strong>
+                      <span>Penyusunan spesifikasi sistem, UML diagram, dan alur proses bisnis.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Database Management</strong>
+                      <span>Perancangan ERD, normalisasi data relasional, dan optimasi SQL.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Software Testing</strong>
+                      <span>Pengujian mutu, pembuatan test case, dan evaluasi fungsional sistem.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Pilar 2: Data Analyst -->
+              <div class="expertise-pillar-card">
+                <div class="pillar-top">
+                  <div class="pillar-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                  <div>
+                    <h3 class="pillar-title">Data Analyst</h3>
+                    <span class="pillar-tagline">Analisis &amp; Wawasan Berbasis Data</span>
+                  </div>
+                </div>
+                <p class="pillar-summary">
+                  Berfokus pada transformasi data mentah menjadi informasi yang bernilai strategis guna mendukung
+                  pengambilan keputusan berbasis data.
+                </p>
+                <ul class="pillar-competency-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Data Processing</strong>
+                      <span>Pengumpulan, penataan, dan konversi dataset ke dalam format terstruktur.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Data Cleaning</strong>
+                      <span>Penanganan data hilang (*missing value*), duplikasi, dan anomali data.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Data Visualization</strong>
+                      <span>Penyajian data dalam diagram, grafik, dan dashboard yang intuitif.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Data Interpretation</strong>
+                      <span>Menyimpulkan tren, pola, dan wawasan bisnis yang relevan dari data.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                      <strong>Basic Statistical Analysis</strong>
+                      <span>Penerapan statistika deskriptif untuk mengukur distribusi dan indikator data.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. PROJECTS & EXPERIENCE -->
+        <section class="content-panel animate-on-scroll" id="projects">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-diagram-project"></i></span>
+              <div>
+                <h2 class="panel-title">Projects &amp; Experience</h2>
+                <span class="panel-subtitle">Rekam Jejak Proyek Akademik, Aplikasi, dan Pengalaman Organisasi</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+
+            <!-- Sub 1: Proyek Pengembangan Aplikasi & Web -->
+            <div class="project-block-group">
+              <h3 class="group-heading">
+                <i class="fa-solid fa-window-restore"></i> Proyek Pengembangan Web &amp; Aplikasi
+              </h3>
+
+              <div class="projects-cards-grid">
+
+                <!-- Proyek 1 -->
+                <div class="project-item-card">
+                  <div class="project-badge">Web Application</div>
+                  <h4 class="project-item-title">[Placeholder: Sistem Informasi Manajemen Data Berbasis Web]</h4>
+                  <p class="project-item-desc">
+                    [Placeholder: Aplikasi berbasis web yang dirancang untuk mengelola dan memonitor data operasional
+                    secara terpusat dengan autentikasi pengguna dan laporan terintegrasi.]
+                  </p>
+                  <div class="tech-stack-tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="project-meta-footer">
+                    <span class="proj-link-item"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo Proyek
+                      [Tautan]</span>
+                    <span class="proj-link-item"><i class="fa-brands fa-github"></i> Repository [GitHub]</span>
+                  </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="project-item-card">
+                  <div class="project-badge">Data Analysis &amp; Dashboard</div>
+                  <h4 class="project-item-title">[Placeholder: Dashboard Analisis Data &amp; Visualisasi Informasi]</h4>
+                  <p class="project-item-desc">
+                    [Placeholder: Proyek pengolahan dataset, pembersihan data mentah, serta perancangan visualisasi
+                    interaktif untuk menyajikan tren dan indikator kinerja utama.]
+                  </p>
+                  <div class="tech-stack-tags">
+                    <span>Python</span>
+                    <span>Data Cleaning</span>
+                    <span>Visualization</span>
+                    <span>SQL</span>
+                  </div>
+                  <div class="project-meta-footer">
+                    <span class="proj-link-item"><i class="fa-solid fa-arrow-up-right-from-square"></i> Laporan Analisis
+                      [Tautan]</span>
+                    <span class="proj-link-item"><i class="fa-brands fa-github"></i> Source Code [GitHub]</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Sub 2: Proyek Akademik & Desain UI/UX -->
+            <div class="project-block-group">
+              <h3 class="group-heading">
+                <i class="fa-solid fa-pen-ruler"></i> Proyek Akademik &amp; UI/UX Design
+              </h3>
+
+              <div class="projects-cards-grid">
+
+                <div class="project-item-card">
+                  <div class="project-badge">UI/UX Prototype</div>
+                  <h4 class="project-item-title">[Placeholder: Desain Prototipe Antarmuka Aplikasi Layanan Digital]</h4>
+                  <p class="project-item-desc">
+                    [Placeholder: Perancangan wireframe dan purwarupa interaktif berbasis riset kebutuhan pengguna
+                    dengan menerapkan hierarki visual dan prinsip estetika DKV.]
+                  </p>
+                  <div class="tech-stack-tags">
+                    <span>Figma</span>
+                    <span>UI/UX</span>
+                    <span>Visual Identity</span>
+                    <span>Usability</span>
+                  </div>
+                </div>
+
+                <div class="project-item-card">
+                  <div class="project-badge">Academic Software</div>
+                  <h4 class="project-item-title">[Placeholder: Aplikasi Desktop / Basis Data Tugas Rekayasa]</h4>
+                  <p class="project-item-desc">
+                    [Placeholder: Pengembangan aplikasi terstruktur dengan relasi database MySQL untuk pemenuhan tugas
+                    rekayasa perangkat lunak dan analisis sistem.]
+                  </p>
+                  <div class="tech-stack-tags">
+                    <span>Java / Python</span>
+                    <span>MySQL</span>
+                    <span>System Analysis</span>
+                    <span>Testing</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Sub 3: Pengalaman Organisasi & Aktivitas Kampus/Sekolah -->
+            <div class="project-block-group">
+              <h3 class="group-heading">
+                <i class="fa-solid fa-users"></i> Pengalaman Organisasi &amp; Kepanitiaan
+              </h3>
+
+              <div class="experience-list">
+
+                <div class="experience-card-item">
+                  <div class="exp-card-header">
+                    <div>
+                      <h4 class="exp-position">[Placeholder: Posisi / Anggota Divisi IT / Media Kreatif]</h4>
+                      <span class="exp-org-name">[Placeholder: Nama Organisasi Kemahasiswaan / Sekolah]</span>
+                    </div>
+                    <span class="exp-duration">2023–2024 [Placeholder Periode]</span>
+                  </div>
+                  <p class="exp-text">
+                    [Placeholder: Berkontribusi aktif dalam perancangan materi komunikasi visual, pengelolaan publikasi
+                    digital, serta kerja sama tim dalam penyelenggaraan kegiatan teknologi.]
+                  </p>
+                </div>
+
+                <div class="experience-card-item">
+                  <div class="exp-card-header">
+                    <div>
+                      <h4 class="exp-position">[Placeholder: Koordinator / Tim Teknis Kegiatan]</h4>
+                      <span class="exp-org-name">[Placeholder: Nama Kegiatan / Kepanitiaan Seminar]</span>
+                    </div>
+                    <span class="exp-duration">2022–2023 [Placeholder Periode]</span>
+                  </div>
+                  <p class="exp-text">
+                    [Placeholder: Mengkoordinasikan kebutuhan teknis, dokumentasi sistem, serta mendukung kelancaran
+                    pelaksanaan program secara profesional.]
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 6. CONTACT -->
+        <section class="content-panel animate-on-scroll" id="contact">
+          <div class="panel-header">
+            <div class="panel-header-title-wrap">
+              <span class="panel-header-icon"><i class="fa-solid fa-envelope"></i></span>
+              <div>
+                <h2 class="panel-title">Contact</h2>
+                <span class="panel-subtitle">Terhubung Melalui Email &amp; Media Sosial</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+
+            <p class="contact-intro-msg">
+              Saya selalu terbuka untuk diskusi mengenai peluang kerja sama, proyek teknologi, analisis data, maupun
+              bertukar wawasan profesional. Silakan hubungi saya melalui saluran berikut:
+            </p>
+
+            <div class="contact-cards-container">
+
+              <!-- Contact Card 1: Email -->
+              <a href="mailto:deshintazzaa@gmail.com" class="direct-contact-card">
+                <div class="direct-contact-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="direct-contact-details">
+                  <span class="direct-contact-label">Kirim Pesan Surel</span>
+                  <strong class="direct-contact-val">deshintazzaa@gmail.com</strong>
+                  <span class="direct-contact-cta">Klik untuk menulis email <i
+                      class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </a>
+
+              <!-- Contact Card 2: Instagram -->
+              <a href="https://instagram.com/dshntaa" target="_blank" rel="noopener noreferrer"
+                class="direct-contact-card">
+                <div class="direct-contact-icon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="direct-contact-details">
+                  <span class="direct-contact-label">Kunjungi Instagram</span>
+                  <strong class="direct-contact-val">@dshntaa</strong>
+                  <span class="direct-contact-cta">Buka profil Instagram <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+              </a>
+
+            </div>
+
+            <!-- Formulir Kontak Sederhana -->
+            <div class="simple-form-block">
+              <h3 class="form-block-title">Kirimkan Pesan Anda</h3>
+              <p class="form-block-desc">Lengkapi formulir di bawah ini untuk mengirimkan pesan atau penawaran kerja
+                sama secara langsung.</p>
+
+              <form class="contact-form" id="contactForm">
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="nameInput" class="form-label">Nama Anda <span class="req">*</span></label>
+                    <input type="text" id="nameInput" name="name" class="form-input"
+                      placeholder="Tuliskan nama lengkap..." required>
+                  </div>
+                  <div class="form-group">
+                    <label for="emailInput" class="form-label">Alamat Email <span class="req">*</span></label>
+                    <input type="email" id="emailInput" name="email" class="form-input" placeholder="email@contoh.com"
+                      required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subjectInput" class="form-label">Subjek Pesan <span class="req">*</span></label>
+                  <input type="text" id="subjectInput" name="subject" class="form-input"
+                    placeholder="Misal: Penawaran Kerja Sama / Diskusi Proyek" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageInput" class="form-label">Isi Pesan <span class="req">*</span></label>
+                  <textarea id="messageInput" name="message" rows="5" class="form-input form-textarea"
+                    placeholder="Tuliskan isi pesan Anda di sini..." required></textarea>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary btn-submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Kirim Pesan</span>
+                  </button>
+                  <div class="form-feedback-message" id="formFeedback" aria-live="polite"></div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </section>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================
+       3. FOOTER
+       ========================================== -->
+  <footer class="cv-footer">
+    <div class="footer-inner container">
+      <div class="footer-flex-row">
+        <div class="footer-brand">
+          <span class="footer-title">Deshinta Melani</span>
+          <span class="footer-sub">Software Engineer &amp; Data Analyst</span>
+        </div>
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-copyright-row">
+        <p>&copy; <span id="yearSpan"></span> <strong>Deshinta Melani</strong>. Seluruh Hak Cipta Dilindungi.</p>
+        <p class="footer-note">Personal CV Website &bull; Formal, Modern &amp; Elegant</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- File JavaScript Eksternal -->
+  <script src="script.js"></script>
+</body>
+
+</html>
